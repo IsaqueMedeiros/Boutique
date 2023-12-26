@@ -501,10 +501,10 @@ function App() {
       </Layout>
       <Layout sectionBg="bg-farkasGreen" >
         <div className=" text-farkasWhite flex flex-col items-center justify-around lg:h-[20rem] w-[95%] lg:w-[90rem]" >
-          <h1 className="text-5xl border-b-2 border-farkasGold" >Lançamento vagas limitadas</h1><br className="hidden lg:block" />
+          <h1 className="text-5xl border-b-2 border-farkasGold" >Lançamento vagas limitadas</h1><br className=" lg:hidden" />
           <p className="text-1xl" >Preço curso CASAS MILIONÁRIAS de lançamento 12x R$766,67 ou R$8280,00 à vista</p>
         </div>
-        <br className="hidden lg:block" />
+        <br className=" lg:hidden" />
         <div
           style={{ backgroundImage: `url("/vc.webp")` }}
           className="rounded-[1rem] bg-cover bg-no-repeat bg-center w-[95%] lg:w-[80rem] text-farkasWhite h-[20rem] lg:h-[15rem] overflow-hidden flex flex-col items-center justify-center"
