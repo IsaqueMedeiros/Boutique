@@ -5,18 +5,15 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <main>
-      <Layout sectionBg="bg-farkasGreen" >
-      <div
-            style={{ backgroundImage: `url("/Logos/CM.webp")` }}
-            className="rounded-[1rem] bg-cover bg-no-repeat bg-center w-[95%] lg:w-[50rem] text-farkasWhite h-[20rem] lg:h-[25rem] overflow-hidden flex flex-col items-center justify-center"
-          >
-      </div>
-      <div
-            style={{ backgroundImage: `url("/PCima.webp")` }}
-            className="rounded-[1rem] bg-cover bg-no-repeat bg-center w-[95%] lg:w-[90rem] text-farkasWhite h-[20rem] lg:h-[20rem] overflow-hidden flex flex-col items-center justify-center"
-          >
-      </div>
-
+      <Layout sectionBg="bg-farkasGreen">
+        <div
+          style={{ backgroundImage: `url("/Logos/CM.webp")` }}
+          className="rounded-[1rem] bg-cover bg-no-repeat bg-center w-[95%] lg:w-[50rem] text-farkasWhite h-[20rem] lg:h-[25rem] overflow-hidden flex flex-col items-center justify-center"
+        ></div>
+        <div
+          style={{ backgroundImage: `url("/FR.webp")` }}
+          className="rounded-[1rem] bg-cover bg-no-repeat bg-bottom w-[95%] lg:w-[90rem] text-farkasWhite h-[20rem] lg:h-[20rem] overflow-hidden flex flex-col items-center justify-center"
+        ></div>
       </Layout>
       <Layout sectionBg="bg-farkasGreen">
         <div className=" border-farkasWhite w-full h-[40rem] flex flex-col items-center justify-center">
@@ -72,11 +69,7 @@ function App() {
 
       <Layout sectionBg="bg-farkasGreen">
         <video className="h-full w-full rounded-lg" controls>
-          <source
-            src="/Evideo.mp4"
-            type="video/mp4"
-          />
-
+          <source src="/Evideo.mp4" type="video/mp4" />
         </video>
       </Layout>
 
@@ -201,8 +194,9 @@ function App() {
 
       <Layout sectionBg="bg-farkasGreen">
         <div className="h-[75rem] lg:h-[60%] w-[98%] flex flex-col lg:flex-row items-center lg:items-start justify-evenly">
-          <h1 className="mr-[50%] lg:absolute lg:mr-[85%] lg:mt-[2.5rem] text-farkasWhite text-3xl" >
-            Obras <br/> <span className="border-b-2 border-farkasGold" >Executadas</span>
+          <h1 className="mr-[50%] lg:absolute lg:mr-[85%] lg:mt-[2.5rem] text-farkasWhite text-3xl">
+            Obras <br />{" "}
+            <span className="border-b-2 border-farkasGold">Executadas</span>
           </h1>
           <span className="h-[65rem] w-full flex flex-col justify-around items-center">
             <div className="h-[10rem] lg:h-[12rem] w-full lg:w-[107.5%] lg:ml-[15%]">
@@ -258,7 +252,6 @@ function App() {
           </span>
         </div>
       </Layout>
-
 
       <Layout sectionBg={"bg-farkasWhite"}>
         <div className="h-[100rem] lg:h-[70rem] w-[95%] lg:w-[120%] flex flex-col justify-around items-center">
@@ -439,14 +432,14 @@ function App() {
                 <br />
                 /FINANCEIRO
               </span>
-              &nbsp; dessa operação. É um DRIVE composto por 27 pastas com dezenas de
-              subpastas. Ele organiza de maneira cronológica de acordo com o que
-              acontece na prática de uma obra, aspectos gerenciais
-              (administrativo/ previsão de despesas, contratos, outros),
-              aspectos de execução (orçamento, projetos, diário de obra, orçado
-              x realizado, manual do proprietário) e aspectos informação/
-              arquivamento (documentos, projetos, manuais, fotos). Enfim, todas
-              as informações na palma da sua mão.
+              &nbsp; dessa operação. É um DRIVE composto por 27 pastas com
+              dezenas de subpastas. Ele organiza de maneira cronológica de
+              acordo com o que acontece na prática de uma obra, aspectos
+              gerenciais (administrativo/ previsão de despesas, contratos,
+              outros), aspectos de execução (orçamento, projetos, diário de
+              obra, orçado x realizado, manual do proprietário) e aspectos
+              informação/ arquivamento (documentos, projetos, manuais, fotos).
+              Enfim, todas as informações na palma da sua mão.
             </p>
           </div>
         </div>
@@ -505,6 +498,17 @@ function App() {
             <p className="border-b-4  border-farkasGold">Empresários</p>
           </div>
         </div>
+      </Layout>
+      <Layout sectionBg="bg-farkasGreen" >
+        <div className=" text-farkasWhite flex flex-col items-center justify-around lg:h-[20rem] w-[95%] lg:w-[90rem]" >
+          <h1 className="text-5xl border-b-2 border-farkasGold" >Lançamento vagas limitadas</h1><br className="hidden lg:block" />
+          <p className="text-1xl" >Preço curso CASAS MILIONÁRIAS de lançamento 12x R$766,67 ou R$8280,00 à vista</p>
+        </div>
+        <br className="hidden lg:block" />
+        <div
+          style={{ backgroundImage: `url("/vc.webp")` }}
+          className="rounded-[1rem] bg-cover bg-no-repeat bg-center w-[95%] lg:w-[80rem] text-farkasWhite h-[20rem] lg:h-[15rem] overflow-hidden flex flex-col items-center justify-center"
+        ></div>
       </Layout>
 
       <Layout sectionBg="farkasWhite">
@@ -613,8 +617,8 @@ function App() {
               <span className="border-b-2 border-farkasGold">Comunidade</span>
             </h1>
             <p className="w-[90%]">
-              Acesso à Comunidade BOUTIQUE CONSTRUTORA,
-               ecossistema que agrupa CASAS MILIONÁRIAS DRIVE_FARKAS E BOUTIQUE CONSTRUTORA.{" "}
+              Acesso à Comunidade BOUTIQUE CONSTRUTORA, ecossistema que agrupa
+              CASAS MILIONÁRIAS DRIVE_FARKAS E BOUTIQUE CONSTRUTORA.{" "}
             </p>
           </div>
         </div>
