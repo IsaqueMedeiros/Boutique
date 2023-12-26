@@ -145,7 +145,7 @@ function App() {
             className=" w-[12rem] h-[12rem] lg:absolute lg:mr-[90%]"
           /> */}
           <span className="h-[65rem] w-full flex flex-col justify-around items-center">
-            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[110%] lg:ml-[15%]">
+            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[120%]">
               <img
                 src="/Exe/EXE1.webp"
                 loading="lazy"
@@ -155,7 +155,7 @@ function App() {
                 className="object-cover w-full lg: h-full"
               />
             </div>
-            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[125%] ">
+            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[120%] ">
               <img
                 src="/Exe/EXE2.webp"
                 loading="lazy"
@@ -165,7 +165,7 @@ function App() {
                 className="object-cover w-full h-full"
               />
             </div>
-            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[125%]">
+            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[120%]">
               <img
                 src="/Exe/EXE3.webp"
                 loading="lazy"
@@ -175,7 +175,7 @@ function App() {
                 className="object-cover w-full h-full"
               />
             </div>
-            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[125%]">
+            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[120%]">
               <img
                 src="/Exe/EXE4.webp"
                 loading="lazy"
@@ -185,14 +185,14 @@ function App() {
                 className="object-cover w-full h-full"
               />
             </div>
-            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[125%]">
+            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[120%]">
               <img
                 src="/Exe/EXE5.webp"
                 loading="lazy"
                 alt="Cartas"
                 width={250}
                 height={250}
-                className="object-cover w-full h-full  lg:w-[125%]"
+                className="object-cover w-full h-full  lg:w-[120%]"
               />
             </div>
           </span>
@@ -201,11 +201,11 @@ function App() {
 
       <Layout sectionBg="bg-farkasGreen">
         <div className="h-[75rem] lg:h-[60%] w-[98%] flex flex-col lg:flex-row items-center lg:items-start justify-evenly">
-          <h1 className="mr-[50%] lg:absolute lg:mr-[88%] lg:mt-[2.5rem] text-farkasWhite text-3xl" >
+          <h1 className="mr-[50%] lg:absolute lg:mr-[85%] lg:mt-[2.5rem] text-farkasWhite text-3xl" >
             Obras <br/> <span className="border-b-2 border-farkasGold" >Executadas</span>
           </h1>
           <span className="h-[65rem] w-full flex flex-col justify-around items-center">
-            <div className="h-[10rem] lg:h-[12rem] w-full lg:w-[110%] lg:ml-[15%]">
+            <div className="h-[10rem] lg:h-[12rem] w-full lg:w-[107.5%] lg:ml-[15%]">
               <img
                 src="/Mi/Mi1.webp"
                 loading="lazy"
@@ -215,7 +215,7 @@ function App() {
                 className="object-cover w-full h-full"
               />
             </div>
-            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[125%]">
+            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[122.5%]">
               <img
                 src="/Mi/Mi2.webp"
                 loading="lazy"
@@ -225,7 +225,7 @@ function App() {
                 className="object-cover w-full h-full "
               />
             </div>
-            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[125%]">
+            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[122.5%]">
               <img
                 src="/Mi/Mi3.webp"
                 loading="lazy"
@@ -235,7 +235,7 @@ function App() {
                 className="object-cover w-full h-full"
               />
             </div>
-            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[125%]">
+            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[122.5%]">
               <img
                 src="/Mi/Mi4.webp"
                 loading="lazy"
@@ -245,7 +245,7 @@ function App() {
                 className="object-cover w-full h-full"
               />
             </div>
-            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[125%]">
+            <div className="h-[10rem] lg:h-[12rem] w-full  lg:w-[122.5%]">
               <img
                 src="/Mi/Mi5.webp"
                 loading="lazy"
@@ -258,6 +258,8 @@ function App() {
           </span>
         </div>
       </Layout>
+
+
       <Layout sectionBg={"bg-farkasWhite"}>
         <div className="h-[100rem] lg:h-[70rem] w-[95%] lg:w-[120%] flex flex-col justify-around items-center">
           <h1 className="text-farkasGreen text-center text-4xl mt-[3rem] lg:mt-[10rem] sm:text-5xl ">
