@@ -562,6 +562,7 @@ function App() {
             </p>
           </div>
         </div>
+        <Footer/>
       </Layout>
 
       <Layout sectionBg="farkasWhite">
@@ -622,6 +623,7 @@ function App() {
             </p>
           </div>
         </div>
+        <Footer/>
       </Layout>
     </main>
   );
