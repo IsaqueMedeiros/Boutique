@@ -18,14 +18,14 @@ function App() {
       <Layout sectionBg="bg-farkasGreen">
         <div className=" border-farkasWhite w-full h-[40rem] flex flex-col items-center justify-center">
           <div className=" text-farkasWhite w-[95%] h-[35rem]  border-farkasGold flex flex-col items-center justify-around">
-            <img
+            {/* <img
               src="/Logo_Boutique_Green.webp"
               loading="lazy"
               alt="exagono"
               width={250}
               height={250}
               className=" w-[12rem] h-[12rem] sm:w-[15rem] sm:h-[15rem] mt-[-5rem] "
-            />
+            /> */}
             <p className="text-[1.5rem]">
               • CASAS MILIONÁRIAS é uma verdadeira revolução no que diz respeito
               à cursos de engenharia civil na internet no Brasil. Vocês entrarão
@@ -41,14 +41,14 @@ function App() {
       <Layout sectionBg="bg-farkasGreen">
         <div className=" border-farkasWhite w-full h-[55rem] lg:h-[40rem] flex flex-col items-center justify-center">
           <div className=" text-farkasWhite w-[95%] h-[35rem]  border-farkasGold flex flex-col items-center justify-around">
-            {/* <img
+            <img
               src="/Logo_Boutique_Green.webp"
               loading="lazy"
               alt="exagono"
               width={250}
               height={250}
               className=" w-[12rem] h-[12rem] sm:w-[15rem] sm:h-[15rem] mt-[-5rem] "
-            /> */}
+            />
             <p className="text-[1.5rem]">
               • DRIVE_FARKAS é uma ferramenta desenvolvida pela FARKAS que
               permite gerenciar e organizar toda sua obra na palma da sua mão.
