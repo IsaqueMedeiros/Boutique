@@ -519,6 +519,7 @@ function App() {
           style={{ backgroundImage: `url("/vc.webp")` }}
           className="rounded-[1rem] bg-cover bg-no-repeat bg-center w-[95%] lg:w-[80rem] text-farkasWhite h-[20rem] lg:h-[15rem] overflow-hidden flex flex-col items-center justify-center"
         ></div>
+        <Footer/>
       </Layout>
       <Layout sectionBg="bg-farkasGreen text-farkasWhite">
         <div className="h-[40rem] flex flex-col justify-around items-center " >
