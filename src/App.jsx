@@ -458,7 +458,7 @@ function App() {
               CONCEITO III -
               <span className="text-[#00FF57]"> BOUTIQUE CONSTRUTORA</span> - É
               o conceito <span className="text-[#00FF57]">IDEOLÓGICO</span>{" "}
-              dessa operação. À Boutique Construtora é a mentora disso tudo. Ela
+              dessa operação.  Boutique Construtora é a mentora disso tudo. Ela
               busca soluções em sustentabilidade no canteiro de obras, Ciência e
               tecnologia na obra, respeito aos colaboradores, limpeza e
               organização, procedimentos, disciplina e rotina.{" "}
@@ -507,9 +507,12 @@ function App() {
           </h1>
           <br className=" lg:hidden" />
           <p className="text-1xl">
-            Preço curso CASAS MILIONÁRIAS de lançamento 12x R$766,67 ou
-            R$8280,00 à vista
+            Preço curso CASAS MILIONÁRIAS de lançamento 12x R$766,67
+
           </p>
+          <a href="https://wa.me/message/4APVRTANU667B1" >
+          <button className="bg-farkasGold p-6 rounded-[1rem] cursor-pointer" ><b>R$8280,00 à vista</b></button>
+          </a>
         </div>
         <br className=" lg:hidden" />
         <div
