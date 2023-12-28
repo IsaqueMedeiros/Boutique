@@ -1,6 +1,7 @@
 import "./index.css";
 import Layout from "../src/components/layout/Layout";
 import Footer from "./components/Footer/Footer";
+import conteudo_cm from "/conteudo_cm.pdf"
 
 function App() {
   return (
@@ -499,16 +500,36 @@ function App() {
           </div>
         </div>
       </Layout>
-      <Layout sectionBg="bg-farkasGreen" >
-        <div className=" text-farkasWhite flex flex-col items-center justify-around lg:h-[20rem] w-[95%] lg:w-[90rem]" >
-          <h1 className="text-5xl border-b-2 border-farkasGold" >Lançamento vagas limitadas</h1><br className=" lg:hidden" />
-          <p className="text-1xl" >Preço curso CASAS MILIONÁRIAS de lançamento 12x R$766,67 ou R$8280,00 à vista</p>
+      <Layout sectionBg="bg-farkasGreen">
+        <div className=" text-farkasWhite flex flex-col items-center justify-around lg:h-[20rem] w-[95%] lg:w-[90rem]">
+          <h1 className="text-5xl border-b-2 border-farkasGold">
+            Lançamento vagas limitadas
+          </h1>
+          <br className=" lg:hidden" />
+          <p className="text-1xl">
+            Preço curso CASAS MILIONÁRIAS de lançamento 12x R$766,67 ou
+            R$8280,00 à vista
+          </p>
         </div>
         <br className=" lg:hidden" />
         <div
           style={{ backgroundImage: `url("/vc.webp")` }}
           className="rounded-[1rem] bg-cover bg-no-repeat bg-center w-[95%] lg:w-[80rem] text-farkasWhite h-[20rem] lg:h-[15rem] overflow-hidden flex flex-col items-center justify-center"
         ></div>
+      </Layout>
+      <Layout sectionBg="bg-farkasGreen text-farkasWhite">
+        <div className="h-[40rem] flex flex-col justify-around items-center " >
+        <h1 className="text-4xl border-b-2 border-farkasGold" >Veja aqui todos os conteúdos de <br className="lg:hidden" />cada aula do curso</h1>
+        <a
+        href={conteudo_cm}
+        download="conteudo_cm"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <button className="bg-farkasGold p-12 rounded-[1rem] cursor-pointer" ><b>Confira aqui todo o conteúdo das aulas</b></button>
+      </a>
+        </div>
+        <Footer/>
       </Layout>
 
       <Layout sectionBg="farkasWhite">
@@ -562,7 +583,7 @@ function App() {
             </p>
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </Layout>
 
       <Layout sectionBg="farkasWhite">
@@ -623,7 +644,7 @@ function App() {
             </p>
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </Layout>
     </main>
   );
