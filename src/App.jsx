@@ -11,6 +11,8 @@ function App() {
           style={{ backgroundImage: `url("/Logos/CM.webp")` }}
           className="rounded-[1rem] bg-cover bg-no-repeat bg-center w-[95%] lg:w-[50rem] text-farkasWhite h-[20rem] lg:h-[25rem] overflow-hidden flex flex-col items-center justify-center"
         ></div>
+        <h1 className="text-farkasWhite text-3xl lg:text-5xl lg:mt-[5rem]" >LANÇAMENTO TURMA II </h1>
+        <h1 className="text-farkasWhite text-3xl lg:text-5xl lg:mb-[5rem]" >19/03/2024 à 18/04/2024</h1>
         <div
           style={{ backgroundImage: `url("/FR.webp")` }}
           className="rounded-[1rem] bg-cover bg-no-repeat bg-bottom w-[95%] lg:w-[90rem] text-farkasWhite h-[20rem] lg:h-[20rem] overflow-hidden flex flex-col items-center justify-center"
@@ -557,7 +559,7 @@ function App() {
             </h1>
             <p className="w-[90%] lg:text-2xl">
               Dois Plantões para tirar dúvidas sobre o curso e outros assuntos.
-              Serão nos dias 29/01/2024 12/02/2024, segundas feiras às 20:00hs.{" "}
+              segundas feiras às 20:00hs.{" "}
             </p>
           </div>
           <div className="text-farkasGreen bg-farkasGold h-[15rem] lg:h-[20rem] w-[95%] border border-farkasGold flex flex-col justify-around items-center rounded-[1rem]">
@@ -599,7 +601,7 @@ function App() {
               <span className="border-b-2 border-farkasGold">do Curso</span>
             </h1>
             <p className="w-[90%] lg:text-2xl">
-              16/01/2024 à 15/02/2024
+              19/03/2024 à 18/04/2024
               <br />
               Acesso ao Grupo de whatsapp curso CASAS MILIONÁRIAS_TURMA I.{" "}
             </p>
