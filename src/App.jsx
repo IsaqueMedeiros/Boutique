@@ -603,7 +603,7 @@ function App() {
             <p className="w-[90%] lg:text-2xl">
               19/03/2024 à 18/04/2024
               <br />
-              Acesso ao Grupo de whatsapp curso CASAS MILIONÁRIAS_TURMA I.{" "}
+              Acesso ao Grupo de whatsapp curso CASAS MILIONÁRIAS_TURMA II.{" "}
             </p>
           </div>
           <div className="text-farkasWhite bg-farkasGreen h-[15rem] lg:h-[20rem] w-[95%] border border-farkasGold flex flex-col justify-around items-center rounded-[1rem]">
