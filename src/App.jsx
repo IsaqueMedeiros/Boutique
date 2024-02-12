@@ -502,7 +502,7 @@ function App() {
           </div>
         </div>
       </Layout>
-      <Layout sectionBg="bg-farkasGreen">
+      {/* <Layout sectionBg="bg-farkasGreen">
         <div className=" text-farkasWhite flex flex-col items-center justify-around lg:h-[20rem] w-[95%] lg:w-[90rem]">
           <h1 className="text-5xl border-b-2 border-farkasGold">
             Lançamento vagas limitadas
@@ -522,7 +522,7 @@ function App() {
           className="rounded-[1rem] bg-cover bg-no-repeat bg-center w-[95%] lg:w-[80rem] text-farkasWhite h-[20rem] lg:h-[15rem] overflow-hidden flex flex-col items-center justify-center"
         ></div>
         <Footer/>
-      </Layout>
+      </Layout> */}
       <Layout sectionBg="bg-farkasGreen text-farkasWhite">
         <div className="h-[40rem] flex flex-col justify-around items-center " >
         <h1 className="text-4xl border-b-2 border-farkasGold" >Veja aqui todos os conteúdos de <br className="lg:hidden" />cada aula do curso</h1>
